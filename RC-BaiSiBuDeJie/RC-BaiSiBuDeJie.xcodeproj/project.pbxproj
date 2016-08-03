@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		512F515F1D520A330080905E /* RCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F515E1D520A330080905E /* RCNavigationController.m */; };
+		512F51621D520A4D0080905E /* RCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F51611D520A4D0080905E /* RCTabBarController.m */; };
+		512F51651D520A5B0080905E /* RCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F51641D520A5B0080905E /* RCTabBar.m */; };
 		51D3F0E31D517A5900038A62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D3F0E21D517A5900038A62 /* main.m */; };
 		51D3F0E61D517A5900038A62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D3F0E51D517A5900038A62 /* AppDelegate.m */; };
 		51D3F0E91D517A5900038A62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D3F0E81D517A5900038A62 /* ViewController.m */; };
@@ -15,6 +18,7 @@
 		51D3F0F11D517A5900038A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D3F0EF1D517A5900038A62 /* LaunchScreen.storyboard */; };
 		51D3F0FC1D517A5900038A62 /* RC_BaiSiBuDeJieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D3F0FB1D517A5900038A62 /* RC_BaiSiBuDeJieTests.m */; };
 		51D3F1071D517A5900038A62 /* RC_BaiSiBuDeJieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D3F1061D517A5900038A62 /* RC_BaiSiBuDeJieUITests.m */; };
+		BC8A0DCE8D60AA08BA18214B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9ADBD31FB7E244F98953DD4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +39,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		076E578F15539EB0F54E923D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		512F515B1D5208A30080905E /* rcBS.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rcBS.pch; sourceTree = "<group>"; };
+		512F515D1D520A330080905E /* RCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCNavigationController.h; sourceTree = "<group>"; };
+		512F515E1D520A330080905E /* RCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCNavigationController.m; sourceTree = "<group>"; };
+		512F51601D520A4D0080905E /* RCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTabBarController.h; sourceTree = "<group>"; };
+		512F51611D520A4D0080905E /* RCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTabBarController.m; sourceTree = "<group>"; };
+		512F51631D520A5B0080905E /* RCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTabBar.h; sourceTree = "<group>"; };
+		512F51641D520A5B0080905E /* RCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTabBar.m; sourceTree = "<group>"; };
 		51D3F0DE1D517A5900038A62 /* RC-BaiSiBuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RC-BaiSiBuDeJie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D3F0E21D517A5900038A62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		51D3F0E41D517A5900038A62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		51D3F0E51D517A5900038A62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		51D3F0E71D517A5900038A62 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		51D3F0E81D517A5900038A62 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		51D3F0E41D517A5900038A62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		51D3F0E51D517A5900038A62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		51D3F0E71D517A5900038A62 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		51D3F0E81D517A5900038A62 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		51D3F0EB1D517A5900038A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51D3F0ED1D517A5900038A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51D3F0F01D517A5900038A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +63,8 @@
 		51D3F1021D517A5900038A62 /* RC-BaiSiBuDeJieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RC-BaiSiBuDeJieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D3F1061D517A5900038A62 /* RC_BaiSiBuDeJieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RC_BaiSiBuDeJieUITests.m; sourceTree = "<group>"; };
 		51D3F1081D517A5900038A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F9C4D90606DB8CA46576FF1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C9ADBD31FB7E244F98953DD4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC8A0DCE8D60AA08BA18214B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CE338A8F06F22BFD55929E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBD31FB7E244F98953DD4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		512F515C1D5209F60080905E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				512F515D1D520A330080905E /* RCNavigationController.h */,
+				512F515E1D520A330080905E /* RCNavigationController.m */,
+				512F51601D520A4D0080905E /* RCTabBarController.h */,
+				512F51611D520A4D0080905E /* RCTabBarController.m */,
+				512F51631D520A5B0080905E /* RCTabBar.h */,
+				512F51641D520A5B0080905E /* RCTabBar.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		512F51661D520A680080905E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				51D3F0E41D517A5900038A62 /* AppDelegate.h */,
+				51D3F0E51D517A5900038A62 /* AppDelegate.m */,
+				51D3F0E71D517A5900038A62 /* ViewController.h */,
+				51D3F0E81D517A5900038A62 /* ViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		512F51671D520AA60080905E /* Essence-精华 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Essence-精华";
+			sourceTree = "<group>";
+		};
+		512F51681D520AC60080905E /* FriendTrends-关注 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "FriendTrends-关注";
+			sourceTree = "<group>";
+		};
+		512F51691D520B3A0080905E /* New-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New-新帖";
+			sourceTree = "<group>";
+		};
+		512F516A1D520B510080905E /* Me-我 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Me-我";
+			sourceTree = "<group>";
+		};
 		51D3F0D51D517A5900038A62 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +160,8 @@
 				51D3F0FA1D517A5900038A62 /* RC-BaiSiBuDeJieTests */,
 				51D3F1051D517A5900038A62 /* RC-BaiSiBuDeJieUITests */,
 				51D3F0DF1D517A5900038A62 /* Products */,
+				9F43C033823C301B0F234FD2 /* Pods */,
+				4CE338A8F06F22BFD55929E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +178,14 @@
 		51D3F0E01D517A5900038A62 /* RC-BaiSiBuDeJie */ = {
 			isa = PBXGroup;
 			children = (
-				51D3F0E41D517A5900038A62 /* AppDelegate.h */,
-				51D3F0E51D517A5900038A62 /* AppDelegate.m */,
-				51D3F0E71D517A5900038A62 /* ViewController.h */,
-				51D3F0E81D517A5900038A62 /* ViewController.m */,
-				51D3F0EA1D517A5900038A62 /* Main.storyboard */,
-				51D3F0ED1D517A5900038A62 /* Assets.xcassets */,
-				51D3F0EF1D517A5900038A62 /* LaunchScreen.storyboard */,
-				51D3F0F21D517A5900038A62 /* Info.plist */,
+				512F51661D520A680080905E /* Main */,
+				512F515C1D5209F60080905E /* Other */,
+				512F51671D520AA60080905E /* Essence-精华 */,
+				512F51691D520B3A0080905E /* New-新帖 */,
+				512F51681D520AC60080905E /* FriendTrends-关注 */,
+				512F516A1D520B510080905E /* Me-我 */,
 				51D3F0E11D517A5900038A62 /* Supporting Files */,
+				512F515B1D5208A30080905E /* rcBS.pch */,
 			);
 			path = "RC-BaiSiBuDeJie";
 			sourceTree = "<group>";
@@ -117,6 +193,10 @@
 		51D3F0E11D517A5900038A62 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				51D3F0F21D517A5900038A62 /* Info.plist */,
+				51D3F0EA1D517A5900038A62 /* Main.storyboard */,
+				51D3F0ED1D517A5900038A62 /* Assets.xcassets */,
+				51D3F0EF1D517A5900038A62 /* LaunchScreen.storyboard */,
 				51D3F0E21D517A5900038A62 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +220,15 @@
 			path = "RC-BaiSiBuDeJieUITests";
 			sourceTree = "<group>";
 		};
+		9F43C033823C301B0F234FD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F9C4D90606DB8CA46576FF1 /* Pods.debug.xcconfig */,
+				076E578F15539EB0F54E923D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51D3F10B1D517A5900038A62 /* Build configuration list for PBXNativeTarget "RC-BaiSiBuDeJie" */;
 			buildPhases = (
+				0A96256F5A2B06CBBF802210 /* Check Pods Manifest.lock */,
 				51D3F0DA1D517A5900038A62 /* Sources */,
 				51D3F0DB1D517A5900038A62 /* Frameworks */,
 				51D3F0DC1D517A5900038A62 /* Resources */,
+				3FAB04D7A3A316A7BD2902D0 /* Embed Pods Frameworks */,
+				2FC971ACA78B49E19790FC35 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +294,7 @@
 		51D3F0D61D517A5900038A62 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RC;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = RongCheng;
 				TargetAttributes = {
@@ -265,13 +358,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A96256F5A2B06CBBF802210 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2FC971ACA78B49E19790FC35 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FAB04D7A3A316A7BD2902D0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51D3F0DA1D517A5900038A62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512F515F1D520A330080905E /* RCNavigationController.m in Sources */,
 				51D3F0E91D517A5900038A62 /* ViewController.m in Sources */,
+				512F51621D520A4D0080905E /* RCTabBarController.m in Sources */,
 				51D3F0E61D517A5900038A62 /* AppDelegate.m in Sources */,
+				512F51651D520A5B0080905E /* RCTabBar.m in Sources */,
 				51D3F0E31D517A5900038A62 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,8 +557,11 @@
 		};
 		51D3F10C1D517A5900038A62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F9C4D90606DB8CA46576FF1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RC-BaiSiBuDeJie/rcBS.pch";
 				INFOPLIST_FILE = "RC-BaiSiBuDeJie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JiYue.com.RC-BaiSiBuDeJie";
@@ -424,8 +571,11 @@
 		};
 		51D3F10D1D517A5900038A62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076E578F15539EB0F54E923D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RC-BaiSiBuDeJie/rcBS.pch";
 				INFOPLIST_FILE = "RC-BaiSiBuDeJie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JiYue.com.RC-BaiSiBuDeJie";
@@ -498,6 +648,7 @@
 				51D3F10D1D517A5900038A62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51D3F10E1D517A5900038A62 /* Build configuration list for PBXNativeTarget "RC-BaiSiBuDeJieTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +657,7 @@
 				51D3F1101D517A5900038A62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51D3F1111D517A5900038A62 /* Build configuration list for PBXNativeTarget "RC-BaiSiBuDeJieUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +666,7 @@
 				51D3F1131D517A5900038A62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

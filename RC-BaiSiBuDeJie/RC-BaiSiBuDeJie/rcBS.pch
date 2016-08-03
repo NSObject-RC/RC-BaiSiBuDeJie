@@ -1,0 +1,24 @@
+
+//
+//  rcBS.pch
+//  RC-BaiSiBuDeJie
+//
+//  Created by RongCheng on 16/8/3.
+//  Copyright © 2016年 RongCheng. All rights reserved.
+//
+
+#ifndef rcBS_pch
+#define rcBS_pch
+#define  WIDTH [UIScreen mainScreen].bounds.size.width
+#define  HEIGTH [UIScreen mainScreen].bounds.size.height
+
+#ifdef DEBUG
+#define RCLog(...) NSLog(__VA_ARGS__)
+#else
+#define RCLog(...)
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* rcBS_pch */
