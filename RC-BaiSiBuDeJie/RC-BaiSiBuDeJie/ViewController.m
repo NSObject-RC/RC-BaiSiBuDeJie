@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"--%s--%d-",__func__,__LINE__);
+    NSLog(@"--%s-初始化-%d-",__func__,__LINE__);
 }
 
 - (void)didReceiveMemoryWarning {
