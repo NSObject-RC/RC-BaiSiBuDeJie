@@ -18,6 +18,22 @@
 		51D3F0F11D517A5900038A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D3F0EF1D517A5900038A62 /* LaunchScreen.storyboard */; };
 		51D3F0FC1D517A5900038A62 /* RC_BaiSiBuDeJieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D3F0FB1D517A5900038A62 /* RC_BaiSiBuDeJieTests.m */; };
 		51D3F1071D517A5900038A62 /* RC_BaiSiBuDeJieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D3F1061D517A5900038A62 /* RC_BaiSiBuDeJieUITests.m */; };
+		51DF78D31D532861009A92AA /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DF78D21D532861009A92AA /* UIView+Extension.m */; };
+		51DF78D71D532C66009A92AA /* UIBarButtonItem+RCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DF78D61D532C66009A92AA /* UIBarButtonItem+RCExtension.m */; };
+		51EF04061D54325E007B87A7 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EF04051D54325E007B87A7 /* Foundation+Log.m */; };
+		51EF04151D543438007B87A7 /* RCFriendTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EF040D1D543438007B87A7 /* RCFriendTViewController.m */; };
+		51EF04161D543438007B87A7 /* RCFriendTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51EF040E1D543438007B87A7 /* RCFriendTViewController.xib */; };
+		51EF04171D543438007B87A7 /* RCRecommendVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EF04111D543438007B87A7 /* RCRecommendVController.m */; };
+		51EF04181D543438007B87A7 /* RCRecommendVController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51EF04121D543438007B87A7 /* RCRecommendVController.xib */; };
+		51EF04201D543491007B87A7 /* RCEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EF041C1D543491007B87A7 /* RCEssenceViewController.m */; };
+		51EF04211D543491007B87A7 /* RCEssenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51EF041D1D543491007B87A7 /* RCEssenceViewController.xib */; };
+		51EF04291D5434D4007B87A7 /* RCNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EF04251D5434D4007B87A7 /* RCNewViewController.m */; };
+		51EF042A1D5434D4007B87A7 /* RCNewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51EF04261D5434D4007B87A7 /* RCNewViewController.xib */; };
+		51EF04321D543516007B87A7 /* RCMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EF042E1D543516007B87A7 /* RCMeViewController.m */; };
+		51EF04331D543516007B87A7 /* RCMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51EF042F1D543516007B87A7 /* RCMeViewController.xib */; };
+		51EF04361D543572007B87A7 /* RCRecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EF04351D543572007B87A7 /* RCRecommendModel.m */; };
+		51EF043A1D544308007B87A7 /* RCRecommendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EF04381D544308007B87A7 /* RCRecommendTableViewCell.m */; };
+		51EF043B1D544308007B87A7 /* RCRecommendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51EF04391D544308007B87A7 /* RCRecommendTableViewCell.xib */; };
 		BC8A0DCE8D60AA08BA18214B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9ADBD31FB7E244F98953DD4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +79,31 @@
 		51D3F1021D517A5900038A62 /* RC-BaiSiBuDeJieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RC-BaiSiBuDeJieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D3F1061D517A5900038A62 /* RC_BaiSiBuDeJieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RC_BaiSiBuDeJieUITests.m; sourceTree = "<group>"; };
 		51D3F1081D517A5900038A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51DF78D11D532861009A92AA /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "../UIView+Extension.h"; sourceTree = "<group>"; };
+		51DF78D21D532861009A92AA /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "../UIView+Extension.m"; sourceTree = "<group>"; };
+		51DF78D51D532C66009A92AA /* UIBarButtonItem+RCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+RCExtension.h"; sourceTree = "<group>"; };
+		51DF78D61D532C66009A92AA /* UIBarButtonItem+RCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+RCExtension.m"; sourceTree = "<group>"; };
+		51EF04051D54325E007B87A7 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		51EF040C1D543438007B87A7 /* RCFriendTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCFriendTViewController.h; sourceTree = "<group>"; };
+		51EF040D1D543438007B87A7 /* RCFriendTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCFriendTViewController.m; sourceTree = "<group>"; };
+		51EF040E1D543438007B87A7 /* RCFriendTViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCFriendTViewController.xib; sourceTree = "<group>"; };
+		51EF04101D543438007B87A7 /* RCRecommendVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRecommendVController.h; sourceTree = "<group>"; };
+		51EF04111D543438007B87A7 /* RCRecommendVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRecommendVController.m; sourceTree = "<group>"; };
+		51EF04121D543438007B87A7 /* RCRecommendVController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCRecommendVController.xib; sourceTree = "<group>"; };
+		51EF041B1D543491007B87A7 /* RCEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCEssenceViewController.h; sourceTree = "<group>"; };
+		51EF041C1D543491007B87A7 /* RCEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCEssenceViewController.m; sourceTree = "<group>"; };
+		51EF041D1D543491007B87A7 /* RCEssenceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCEssenceViewController.xib; sourceTree = "<group>"; };
+		51EF04241D5434D4007B87A7 /* RCNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCNewViewController.h; sourceTree = "<group>"; };
+		51EF04251D5434D4007B87A7 /* RCNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCNewViewController.m; sourceTree = "<group>"; };
+		51EF04261D5434D4007B87A7 /* RCNewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCNewViewController.xib; sourceTree = "<group>"; };
+		51EF042D1D543516007B87A7 /* RCMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCMeViewController.h; sourceTree = "<group>"; };
+		51EF042E1D543516007B87A7 /* RCMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCMeViewController.m; sourceTree = "<group>"; };
+		51EF042F1D543516007B87A7 /* RCMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCMeViewController.xib; sourceTree = "<group>"; };
+		51EF04341D543572007B87A7 /* RCRecommendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRecommendModel.h; sourceTree = "<group>"; };
+		51EF04351D543572007B87A7 /* RCRecommendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRecommendModel.m; sourceTree = "<group>"; };
+		51EF04371D544308007B87A7 /* RCRecommendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRecommendTableViewCell.h; sourceTree = "<group>"; };
+		51EF04381D544308007B87A7 /* RCRecommendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRecommendTableViewCell.m; sourceTree = "<group>"; };
+		51EF04391D544308007B87A7 /* RCRecommendTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCRecommendTableViewCell.xib; sourceTree = "<group>"; };
 		6F9C4D90606DB8CA46576FF1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C9ADBD31FB7E244F98953DD4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -104,6 +145,7 @@
 		512F515C1D5209F60080905E /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				51DF78D41D532C10009A92AA /* Category */,
 				512F515D1D520A330080905E /* RCNavigationController.h */,
 				512F515E1D520A330080905E /* RCNavigationController.m */,
 				512F51601D520A4D0080905E /* RCTabBarController.h */,
@@ -128,6 +170,9 @@
 		512F51671D520AA60080905E /* Essence-精华 */ = {
 			isa = PBXGroup;
 			children = (
+				51EF04191D543491007B87A7 /* Controller */,
+				51EF041E1D543491007B87A7 /* Model */,
+				51EF041F1D543491007B87A7 /* View */,
 			);
 			path = "Essence-精华";
 			sourceTree = "<group>";
@@ -135,6 +180,9 @@
 		512F51681D520AC60080905E /* FriendTrends-关注 */ = {
 			isa = PBXGroup;
 			children = (
+				51EF040A1D543438007B87A7 /* Controller */,
+				51EF04131D543438007B87A7 /* Model */,
+				51EF04141D543438007B87A7 /* View */,
 			);
 			path = "FriendTrends-关注";
 			sourceTree = "<group>";
@@ -142,6 +190,9 @@
 		512F51691D520B3A0080905E /* New-新帖 */ = {
 			isa = PBXGroup;
 			children = (
+				51EF04221D5434D4007B87A7 /* Controller */,
+				51EF04271D5434D4007B87A7 /* Model */,
+				51EF04281D5434D4007B87A7 /* View */,
 			);
 			path = "New-新帖";
 			sourceTree = "<group>";
@@ -149,6 +200,9 @@
 		512F516A1D520B510080905E /* Me-我 */ = {
 			isa = PBXGroup;
 			children = (
+				51EF042B1D543516007B87A7 /* Controller */,
+				51EF04301D543516007B87A7 /* Model */,
+				51EF04311D543516007B87A7 /* View */,
 			);
 			path = "Me-我";
 			sourceTree = "<group>";
@@ -218,6 +272,162 @@
 				51D3F1081D517A5900038A62 /* Info.plist */,
 			);
 			path = "RC-BaiSiBuDeJieUITests";
+			sourceTree = "<group>";
+		};
+		51DF78D41D532C10009A92AA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				51EF04051D54325E007B87A7 /* Foundation+Log.m */,
+				51DF78D11D532861009A92AA /* UIView+Extension.h */,
+				51DF78D21D532861009A92AA /* UIView+Extension.m */,
+				51DF78D51D532C66009A92AA /* UIBarButtonItem+RCExtension.h */,
+				51DF78D61D532C66009A92AA /* UIBarButtonItem+RCExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		51EF040A1D543438007B87A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51EF040B1D543438007B87A7 /* 关注 */,
+				51EF040F1D543438007B87A7 /* 推荐 */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		51EF040B1D543438007B87A7 /* 关注 */ = {
+			isa = PBXGroup;
+			children = (
+				51EF040C1D543438007B87A7 /* RCFriendTViewController.h */,
+				51EF040D1D543438007B87A7 /* RCFriendTViewController.m */,
+				51EF040E1D543438007B87A7 /* RCFriendTViewController.xib */,
+			);
+			path = "关注";
+			sourceTree = "<group>";
+		};
+		51EF040F1D543438007B87A7 /* 推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				51EF04101D543438007B87A7 /* RCRecommendVController.h */,
+				51EF04111D543438007B87A7 /* RCRecommendVController.m */,
+				51EF04121D543438007B87A7 /* RCRecommendVController.xib */,
+			);
+			path = "推荐";
+			sourceTree = "<group>";
+		};
+		51EF04131D543438007B87A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51EF04341D543572007B87A7 /* RCRecommendModel.h */,
+				51EF04351D543572007B87A7 /* RCRecommendModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51EF04141D543438007B87A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51EF04371D544308007B87A7 /* RCRecommendTableViewCell.h */,
+				51EF04381D544308007B87A7 /* RCRecommendTableViewCell.m */,
+				51EF04391D544308007B87A7 /* RCRecommendTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51EF04191D543491007B87A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51EF041A1D543491007B87A7 /* 精华 */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		51EF041A1D543491007B87A7 /* 精华 */ = {
+			isa = PBXGroup;
+			children = (
+				51EF041B1D543491007B87A7 /* RCEssenceViewController.h */,
+				51EF041C1D543491007B87A7 /* RCEssenceViewController.m */,
+				51EF041D1D543491007B87A7 /* RCEssenceViewController.xib */,
+			);
+			path = "精华";
+			sourceTree = "<group>";
+		};
+		51EF041E1D543491007B87A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51EF041F1D543491007B87A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51EF04221D5434D4007B87A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51EF04231D5434D4007B87A7 /* 新帖 */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		51EF04231D5434D4007B87A7 /* 新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				51EF04241D5434D4007B87A7 /* RCNewViewController.h */,
+				51EF04251D5434D4007B87A7 /* RCNewViewController.m */,
+				51EF04261D5434D4007B87A7 /* RCNewViewController.xib */,
+			);
+			path = "新帖";
+			sourceTree = "<group>";
+		};
+		51EF04271D5434D4007B87A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51EF04281D5434D4007B87A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51EF042B1D543516007B87A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51EF042C1D543516007B87A7 /* 我 */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		51EF042C1D543516007B87A7 /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				51EF042D1D543516007B87A7 /* RCMeViewController.h */,
+				51EF042E1D543516007B87A7 /* RCMeViewController.m */,
+				51EF042F1D543516007B87A7 /* RCMeViewController.xib */,
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
+		51EF04301D543516007B87A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51EF04311D543516007B87A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		9F43C033823C301B0F234FD2 /* Pods */ = {
@@ -338,6 +548,12 @@
 			files = (
 				51D3F0F11D517A5900038A62 /* LaunchScreen.storyboard in Resources */,
 				51D3F0EE1D517A5900038A62 /* Assets.xcassets in Resources */,
+				51EF04181D543438007B87A7 /* RCRecommendVController.xib in Resources */,
+				51EF04161D543438007B87A7 /* RCFriendTViewController.xib in Resources */,
+				51EF04211D543491007B87A7 /* RCEssenceViewController.xib in Resources */,
+				51EF04331D543516007B87A7 /* RCMeViewController.xib in Resources */,
+				51EF043B1D544308007B87A7 /* RCRecommendTableViewCell.xib in Resources */,
+				51EF042A1D5434D4007B87A7 /* RCNewViewController.xib in Resources */,
 				51D3F0EC1D517A5900038A62 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,11 +628,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				512F515F1D520A330080905E /* RCNavigationController.m in Sources */,
+				51EF04061D54325E007B87A7 /* Foundation+Log.m in Sources */,
+				51EF04201D543491007B87A7 /* RCEssenceViewController.m in Sources */,
 				51D3F0E91D517A5900038A62 /* ViewController.m in Sources */,
+				51EF04291D5434D4007B87A7 /* RCNewViewController.m in Sources */,
+				51DF78D31D532861009A92AA /* UIView+Extension.m in Sources */,
+				51DF78D71D532C66009A92AA /* UIBarButtonItem+RCExtension.m in Sources */,
+				51EF043A1D544308007B87A7 /* RCRecommendTableViewCell.m in Sources */,
 				512F51621D520A4D0080905E /* RCTabBarController.m in Sources */,
 				51D3F0E61D517A5900038A62 /* AppDelegate.m in Sources */,
+				51EF04171D543438007B87A7 /* RCRecommendVController.m in Sources */,
 				512F51651D520A5B0080905E /* RCTabBar.m in Sources */,
+				51EF04361D543572007B87A7 /* RCRecommendModel.m in Sources */,
+				51EF04321D543516007B87A7 /* RCMeViewController.m in Sources */,
 				51D3F0E31D517A5900038A62 /* main.m in Sources */,
+				51EF04151D543438007B87A7 /* RCFriendTViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

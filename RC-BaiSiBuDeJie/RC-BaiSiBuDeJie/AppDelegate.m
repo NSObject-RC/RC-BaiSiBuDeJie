@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "RCTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,9 +19,7 @@
     self.window=[[UIWindow alloc]init];
     self.window.frame=[UIScreen  mainScreen].bounds;
     self.window.backgroundColor=[UIColor whiteColor];
-    self.window.rootViewController=[[ViewController alloc]init];
-    
-    
+    self.window.rootViewController=[[RCTabBarController alloc]init];
     [self.window makeKeyAndVisible];
     return YES;
 }

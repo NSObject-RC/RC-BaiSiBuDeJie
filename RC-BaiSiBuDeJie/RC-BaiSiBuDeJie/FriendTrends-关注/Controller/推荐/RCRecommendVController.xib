@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RCRecommendVController">
+            <connections>
+                <outlet property="categoryTableView" destination="hga-Ee-err" id="4Jt-tv-3ad"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hga-Ee-err">
+                    <rect key="frame" x="0.0" y="0.0" width="70" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="sWi-eK-SmR"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="KDB-7b-57k"/>
+                        <outlet property="delegate" destination="-1" id="FLd-OM-YjY"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="hga-Ee-err" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="IH1-BP-Hzq"/>
+                <constraint firstItem="hga-Ee-err" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="IQQ-iD-avr"/>
+                <constraint firstAttribute="bottom" secondItem="hga-Ee-err" secondAttribute="bottom" id="gUn-RJ-YiL"/>
+            </constraints>
+            <point key="canvasLocation" x="339" y="231"/>
+        </view>
+    </objects>
+</document>
