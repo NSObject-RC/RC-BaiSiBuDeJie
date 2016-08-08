@@ -8,6 +8,7 @@
 
 #import "RCFriendTViewController.h"
 #import "RCRecommendVController.h"
+#import "RCLoginRegisterController.h"
 @interface RCFriendTViewController ()
 
 @end
@@ -23,6 +24,9 @@
 - (void)friendsRecommentclick{
     
     [self.navigationController pushViewController:[[RCRecommendVController alloc]init] animated:YES];
+}
+- (IBAction)loginAndRegister:(id)sender {
+    [self presentViewController:[[RCLoginRegisterController alloc]init] animated:YES completion:nil];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

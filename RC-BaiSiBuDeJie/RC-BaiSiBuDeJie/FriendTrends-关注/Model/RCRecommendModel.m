@@ -9,5 +9,10 @@
 #import "RCRecommendModel.h"
 
 @implementation RCRecommendModel
-
+- (NSMutableArray *) userArray{
+    if(!_userArray){
+        _userArray=[NSMutableArray array];
+    }
+    return _userArray;
+}
 @end

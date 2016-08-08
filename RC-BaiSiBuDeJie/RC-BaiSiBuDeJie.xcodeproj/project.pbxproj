@@ -10,6 +10,10 @@
 		512F515F1D520A330080905E /* RCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F515E1D520A330080905E /* RCNavigationController.m */; };
 		512F51621D520A4D0080905E /* RCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F51611D520A4D0080905E /* RCTabBarController.m */; };
 		512F51651D520A5B0080905E /* RCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F51641D520A5B0080905E /* RCTabBar.m */; };
+		51507D671D581D0200D2F4E7 /* RCLoginRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51507D651D581D0200D2F4E7 /* RCLoginRegisterController.m */; };
+		51507D681D581D0200D2F4E7 /* RCLoginRegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51507D661D581D0200D2F4E7 /* RCLoginRegisterController.xib */; };
+		51507D6B1D581FA300D2F4E7 /* RCVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 51507D6A1D581FA300D2F4E7 /* RCVerticalButton.m */; };
+		51507D6E1D58653B00D2F4E7 /* RCTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 51507D6D1D58653B00D2F4E7 /* RCTextField.m */; };
 		51D3F0E31D517A5900038A62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D3F0E21D517A5900038A62 /* main.m */; };
 		51D3F0E61D517A5900038A62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D3F0E51D517A5900038A62 /* AppDelegate.m */; };
 		51D3F0E91D517A5900038A62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D3F0E81D517A5900038A62 /* ViewController.m */; };
@@ -34,6 +38,9 @@
 		51EF04361D543572007B87A7 /* RCRecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EF04351D543572007B87A7 /* RCRecommendModel.m */; };
 		51EF043A1D544308007B87A7 /* RCRecommendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EF04381D544308007B87A7 /* RCRecommendTableViewCell.m */; };
 		51EF043B1D544308007B87A7 /* RCRecommendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51EF04391D544308007B87A7 /* RCRecommendTableViewCell.xib */; };
+		51EF043F1D547E15007B87A7 /* RCRecommendUserTableVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EF043D1D547E15007B87A7 /* RCRecommendUserTableVCell.m */; };
+		51EF04401D547E15007B87A7 /* RCRecommendUserTableVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51EF043E1D547E15007B87A7 /* RCRecommendUserTableVCell.xib */; };
+		51EF04431D5482EB007B87A7 /* RCRecommendUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EF04421D5482EB007B87A7 /* RCRecommendUserModel.m */; };
 		BC8A0DCE8D60AA08BA18214B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9ADBD31FB7E244F98953DD4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +70,13 @@
 		512F51611D520A4D0080905E /* RCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTabBarController.m; sourceTree = "<group>"; };
 		512F51631D520A5B0080905E /* RCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTabBar.h; sourceTree = "<group>"; };
 		512F51641D520A5B0080905E /* RCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTabBar.m; sourceTree = "<group>"; };
+		51507D641D581D0200D2F4E7 /* RCLoginRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLoginRegisterController.h; sourceTree = "<group>"; };
+		51507D651D581D0200D2F4E7 /* RCLoginRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLoginRegisterController.m; sourceTree = "<group>"; };
+		51507D661D581D0200D2F4E7 /* RCLoginRegisterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCLoginRegisterController.xib; sourceTree = "<group>"; };
+		51507D691D581FA300D2F4E7 /* RCVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCVerticalButton.h; sourceTree = "<group>"; };
+		51507D6A1D581FA300D2F4E7 /* RCVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCVerticalButton.m; sourceTree = "<group>"; };
+		51507D6C1D58653B00D2F4E7 /* RCTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTextField.h; sourceTree = "<group>"; };
+		51507D6D1D58653B00D2F4E7 /* RCTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTextField.m; sourceTree = "<group>"; };
 		51D3F0DE1D517A5900038A62 /* RC-BaiSiBuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RC-BaiSiBuDeJie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D3F0E21D517A5900038A62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51D3F0E41D517A5900038A62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +118,11 @@
 		51EF04371D544308007B87A7 /* RCRecommendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRecommendTableViewCell.h; sourceTree = "<group>"; };
 		51EF04381D544308007B87A7 /* RCRecommendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRecommendTableViewCell.m; sourceTree = "<group>"; };
 		51EF04391D544308007B87A7 /* RCRecommendTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCRecommendTableViewCell.xib; sourceTree = "<group>"; };
+		51EF043C1D547E15007B87A7 /* RCRecommendUserTableVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRecommendUserTableVCell.h; sourceTree = "<group>"; };
+		51EF043D1D547E15007B87A7 /* RCRecommendUserTableVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRecommendUserTableVCell.m; sourceTree = "<group>"; };
+		51EF043E1D547E15007B87A7 /* RCRecommendUserTableVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCRecommendUserTableVCell.xib; sourceTree = "<group>"; };
+		51EF04411D5482EB007B87A7 /* RCRecommendUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRecommendUserModel.h; sourceTree = "<group>"; };
+		51EF04421D5482EB007B87A7 /* RCRecommendUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRecommendUserModel.m; sourceTree = "<group>"; };
 		6F9C4D90606DB8CA46576FF1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C9ADBD31FB7E244F98953DD4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -207,6 +226,36 @@
 			path = "Me-我";
 			sourceTree = "<group>";
 		};
+		51507D5B1D5815CD00D2F4E7 /* LoginRegister-登陆注册 */ = {
+			isa = PBXGroup;
+			children = (
+				51507D631D581D0200D2F4E7 /* Controller */,
+				51507D611D581CB000D2F4E7 /* View */,
+			);
+			path = "LoginRegister-登陆注册";
+			sourceTree = "<group>";
+		};
+		51507D611D581CB000D2F4E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51507D691D581FA300D2F4E7 /* RCVerticalButton.h */,
+				51507D6A1D581FA300D2F4E7 /* RCVerticalButton.m */,
+				51507D6C1D58653B00D2F4E7 /* RCTextField.h */,
+				51507D6D1D58653B00D2F4E7 /* RCTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51507D631D581D0200D2F4E7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51507D641D581D0200D2F4E7 /* RCLoginRegisterController.h */,
+				51507D651D581D0200D2F4E7 /* RCLoginRegisterController.m */,
+				51507D661D581D0200D2F4E7 /* RCLoginRegisterController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		51D3F0D51D517A5900038A62 = {
 			isa = PBXGroup;
 			children = (
@@ -238,6 +287,7 @@
 				512F51691D520B3A0080905E /* New-新帖 */,
 				512F51681D520AC60080905E /* FriendTrends-关注 */,
 				512F516A1D520B510080905E /* Me-我 */,
+				51507D5B1D5815CD00D2F4E7 /* LoginRegister-登陆注册 */,
 				51D3F0E11D517A5900038A62 /* Supporting Files */,
 				512F515B1D5208A30080905E /* rcBS.pch */,
 			);
@@ -320,6 +370,8 @@
 			children = (
 				51EF04341D543572007B87A7 /* RCRecommendModel.h */,
 				51EF04351D543572007B87A7 /* RCRecommendModel.m */,
+				51EF04411D5482EB007B87A7 /* RCRecommendUserModel.h */,
+				51EF04421D5482EB007B87A7 /* RCRecommendUserModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -330,6 +382,9 @@
 				51EF04371D544308007B87A7 /* RCRecommendTableViewCell.h */,
 				51EF04381D544308007B87A7 /* RCRecommendTableViewCell.m */,
 				51EF04391D544308007B87A7 /* RCRecommendTableViewCell.xib */,
+				51EF043C1D547E15007B87A7 /* RCRecommendUserTableVCell.h */,
+				51EF043D1D547E15007B87A7 /* RCRecommendUserTableVCell.m */,
+				51EF043E1D547E15007B87A7 /* RCRecommendUserTableVCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -548,9 +603,11 @@
 			files = (
 				51D3F0F11D517A5900038A62 /* LaunchScreen.storyboard in Resources */,
 				51D3F0EE1D517A5900038A62 /* Assets.xcassets in Resources */,
+				51EF04401D547E15007B87A7 /* RCRecommendUserTableVCell.xib in Resources */,
 				51EF04181D543438007B87A7 /* RCRecommendVController.xib in Resources */,
 				51EF04161D543438007B87A7 /* RCFriendTViewController.xib in Resources */,
 				51EF04211D543491007B87A7 /* RCEssenceViewController.xib in Resources */,
+				51507D681D581D0200D2F4E7 /* RCLoginRegisterController.xib in Resources */,
 				51EF04331D543516007B87A7 /* RCMeViewController.xib in Resources */,
 				51EF043B1D544308007B87A7 /* RCRecommendTableViewCell.xib in Resources */,
 				51EF042A1D5434D4007B87A7 /* RCNewViewController.xib in Resources */,
@@ -627,21 +684,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51507D6B1D581FA300D2F4E7 /* RCVerticalButton.m in Sources */,
 				512F515F1D520A330080905E /* RCNavigationController.m in Sources */,
 				51EF04061D54325E007B87A7 /* Foundation+Log.m in Sources */,
 				51EF04201D543491007B87A7 /* RCEssenceViewController.m in Sources */,
 				51D3F0E91D517A5900038A62 /* ViewController.m in Sources */,
 				51EF04291D5434D4007B87A7 /* RCNewViewController.m in Sources */,
 				51DF78D31D532861009A92AA /* UIView+Extension.m in Sources */,
+				51EF04431D5482EB007B87A7 /* RCRecommendUserModel.m in Sources */,
 				51DF78D71D532C66009A92AA /* UIBarButtonItem+RCExtension.m in Sources */,
 				51EF043A1D544308007B87A7 /* RCRecommendTableViewCell.m in Sources */,
+				51507D6E1D58653B00D2F4E7 /* RCTextField.m in Sources */,
 				512F51621D520A4D0080905E /* RCTabBarController.m in Sources */,
 				51D3F0E61D517A5900038A62 /* AppDelegate.m in Sources */,
+				51507D671D581D0200D2F4E7 /* RCLoginRegisterController.m in Sources */,
 				51EF04171D543438007B87A7 /* RCRecommendVController.m in Sources */,
 				512F51651D520A5B0080905E /* RCTabBar.m in Sources */,
 				51EF04361D543572007B87A7 /* RCRecommendModel.m in Sources */,
 				51EF04321D543516007B87A7 /* RCMeViewController.m in Sources */,
 				51D3F0E31D517A5900038A62 /* main.m in Sources */,
+				51EF043F1D547E15007B87A7 /* RCRecommendUserTableVCell.m in Sources */,
 				51EF04151D543438007B87A7 /* RCFriendTViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

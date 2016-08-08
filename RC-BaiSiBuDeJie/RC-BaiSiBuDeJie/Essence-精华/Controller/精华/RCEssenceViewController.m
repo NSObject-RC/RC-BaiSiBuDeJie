@@ -22,7 +22,7 @@
     
 }
 - (void)leftItemClick{
-    RCCLogFun;
+    RCLogFun;
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

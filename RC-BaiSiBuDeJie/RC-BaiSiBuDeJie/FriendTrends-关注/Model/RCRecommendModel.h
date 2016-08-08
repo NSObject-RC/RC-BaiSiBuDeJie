@@ -15,4 +15,13 @@
 @property (nonatomic,assign)NSInteger id ;
 /** 名字*/
 @property (nonatomic ,copy) NSString * name;
+/** 这个类别对应的用户数据*/
+@property (nonatomic ,strong) NSMutableArray * userArray;
+
+/** 用户总数*/
+@property (nonatomic,assign)NSInteger total ;
+
+
+/** 当前页码*/
+@property (nonatomic,assign)NSInteger currentPage ;
 @end

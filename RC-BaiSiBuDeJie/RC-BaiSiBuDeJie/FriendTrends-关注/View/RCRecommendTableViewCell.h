@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class RCRecommendModel;
 @interface RCRecommendTableViewCell : UITableViewCell
-
+@property (nonatomic ,strong) RCRecommendModel * model;
 @end

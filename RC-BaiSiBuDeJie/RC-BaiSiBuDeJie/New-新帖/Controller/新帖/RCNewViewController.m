@@ -20,7 +20,7 @@
     self.navigationItem.leftBarButtonItem=[UIBarButtonItem itemWithImage:@"MainTagSubIcon" higtImage:@"MainTagSubIconClick" target:self action:@selector(leftItemClick)];
 }
 - (void)leftItemClick{
-    RCCLogFun;
+    RCLogFun;
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
