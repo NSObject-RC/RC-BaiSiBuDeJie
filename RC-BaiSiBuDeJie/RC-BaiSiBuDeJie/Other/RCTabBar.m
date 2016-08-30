@@ -7,6 +7,7 @@
 //
 
 #import "RCTabBar.h"
+#import "RCPublishViewController.h"
 @interface RCTabBar ()
 /** 发布按钮 */
 @property (nonatomic, weak) UIButton *publishButton;
@@ -23,10 +24,15 @@
         [publishButton setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];
         [publishButton setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_click_icon"] forState:UIControlStateHighlighted];
         publishButton.size = publishButton.currentBackgroundImage.size;
+        [publishButton addTarget:self action:@selector(publishClick) forControlEvents:(UIControlEventTouchUpInside)];
         [self addSubview:publishButton];
         self.publishButton = publishButton;
     }
     return self;
+}
+- (void)publishClick{
+    RCPublishViewController * publish =[[RCPublishViewController alloc]init];
+    [[UIApplication sharedApplication].keyWindow .rootViewController  presentViewController:publish animated:NO completion:nil];
 }
 - (void)layoutSubviews{
     [super layoutSubviews];

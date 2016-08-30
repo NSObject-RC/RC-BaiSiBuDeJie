@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-
 @interface RCDuanZiTableViewController : UITableViewController
-
+@property (nonatomic,assign)RCDuanZiType  type;
 @end

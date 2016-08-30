@@ -7,10 +7,7 @@
 //
 
 #import "RCEssenceViewController.h"
-#import "RCAllTableViewController.h"
-#import "RCVideoTableViewController.h"
-#import "RCVoiceTableViewController.h"
-#import "RCPictureTableViewController.h"
+
 #import "RCDuanZiTableViewController.h"
 @interface RCEssenceViewController ()<UIScrollViewDelegate>
 /** 顶部的所有标签 */
@@ -30,6 +27,7 @@
     
     self.navigationItem.titleView =[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"MainTitle"] ];
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" higtImage:@"MainTagSubIconClick" target:self action:@selector(leftItemClick)];
+    self.view.backgroundColor=[UIColor groupTableViewBackgroundColor];
    
      [self setupChildVs];
      [self setupTitlesView];
@@ -40,20 +38,32 @@
  */
 - (void)setupChildVs
 {
-    RCAllTableViewController *all = [[RCAllTableViewController alloc] init];
+    
+
+    
+    RCDuanZiTableViewController *all = [[RCDuanZiTableViewController alloc] init];
+    all.type = RCDuanZiTypeAll;
     [self addChildViewController:all];
     
-    RCVideoTableViewController *video = [[RCVideoTableViewController alloc] init];
+    RCDuanZiTableViewController *video = [[RCDuanZiTableViewController alloc] init];
+    video.type = RCDuanZiTypeVideo;
+
     [self addChildViewController:video];
     
-    RCVoiceTableViewController *voice = [[RCVoiceTableViewController  alloc] init];
+    RCDuanZiTableViewController *voice = [[RCDuanZiTableViewController  alloc] init];
+    voice.type = RCDuanZiTypeVoice;
+
     [self addChildViewController:voice];
     
-    RCPictureTableViewController *picture = [[RCPictureTableViewController alloc] init];
+    RCDuanZiTableViewController *picture = [[RCDuanZiTableViewController alloc] init];
+    picture.type = RCDuanZiTypePicture;
+
     [self addChildViewController:picture];
     
-    RCDuanZiTableViewController *word = [[RCDuanZiTableViewController alloc] init];
-    [self addChildViewController:word];
+    RCDuanZiTableViewController *duanzi = [[RCDuanZiTableViewController alloc] init];
+    duanzi.type = RCDuanZiTypeDuanZi;
+    [self addChildViewController:duanzi];
+    
 }
 
 /**
@@ -62,7 +72,7 @@
 - (void)setupTitlesView{
     // 标签栏整体View
     UIView * v=[[UIView alloc]initWithFrame:CGRectMake(0, 64, WIDTH, 35)];
-    v.backgroundColor=[[UIColor whiteColor] colorWithAlphaComponent:0.7];
+    v.backgroundColor=[[UIColor whiteColor] colorWithAlphaComponent:0.9];
     v.tag=100;
    [self.view addSubview:v];
     self.titlesView=v;
