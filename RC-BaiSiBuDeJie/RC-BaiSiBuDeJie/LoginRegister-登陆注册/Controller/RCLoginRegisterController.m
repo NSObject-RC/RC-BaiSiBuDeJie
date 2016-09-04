@@ -48,6 +48,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+ // 因为新建了一个Window，导致这个不起左右。在info.plist添加View controller-based status bar appearance 为NO，通过application.statusBarStyle = UIStatusBarStyleLightContent来设置颜色。或是单独在某个控制器中隐藏新建的Window，销毁控制器的时候再显示回来。
 /**
  * 当前控制器对应的状态栏控件是白色
  */

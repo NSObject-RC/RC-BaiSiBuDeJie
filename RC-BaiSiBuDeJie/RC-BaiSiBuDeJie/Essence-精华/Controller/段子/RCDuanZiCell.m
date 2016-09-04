@@ -86,7 +86,11 @@
 }
 - (void)setModel:(RCDuanziModel *)model{
     _model=model;
-    [self.profileImageView sd_setImageWithURL:[NSURL URLWithString:model.profile_image] placeholderImage:[UIImage imageNamed:@"defaultUserIcon"]];
+    
+    
+   
+    [self.profileImageView setHeadImage:model.profile_image];
+    
     self.sina_v.hidden= model.isSina_V;
     self.nameLab.text= model.name;
     self.creatTimeLab.text=model.create_time;
@@ -150,13 +154,9 @@
 }
 - (void)setFrame:(CGRect)frame{
    
-    static CGFloat margin = 10;
-    frame.origin.x = margin;
-    frame.size.width  -= 2 * margin;
-    
-    frame.origin.y += margin ;
+    frame.origin.y += RCCellMargin ;
     //frame.size.height -= margin;
-    frame.size.height = self.model.cellHeight - margin;
+    frame.size.height = self.model.cellHeight - RCCellMargin;
     [super setFrame:frame];
 }
 

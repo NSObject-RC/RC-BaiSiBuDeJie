@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface RCNewViewController : UIViewController
+#import "RCEssenceViewController.h"
+@interface RCNewViewController : RCEssenceViewController
 
 @end

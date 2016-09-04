@@ -28,3 +28,12 @@ UIKIT_EXTERN CGFloat const RCPictureMaxH ;
 /**RCUserModel中性别属性值*/
 UIKIT_EXTERN NSString * const RCUserModelSexMale;
 UIKIT_EXTERN NSString * const RCUserModelSexFemale;
+
+/**tabBar被选中的通知名字*/
+UIKIT_EXTERN NSString * const RCTabBarDidSelectNotification;
+
+
+
+
+
+

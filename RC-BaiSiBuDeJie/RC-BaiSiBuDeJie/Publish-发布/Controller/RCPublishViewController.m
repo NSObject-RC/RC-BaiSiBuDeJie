@@ -9,6 +9,8 @@
 #import "RCPublishViewController.h"
 #import "RCVerticalButton.h"
 #import "POP.h"
+#import "RCPubWordViewController.h"
+#import "RCNavigationController.h"
 
 static CGFloat const RCAnimationDelay = 0.1;
 static CGFloat const RCSpringFactor = 10;
@@ -92,8 +94,15 @@ static CGFloat const RCSpringFactor = 10;
     [self cancelWithCompletionBlock:^{
         if (button.tag == 0) {
             RCLog(@"发视频");
+            
         } else if (button.tag == 1) {
             RCLog(@"发图片");
+        }else if (button.tag == 2){
+            RCPubWordViewController * word =[[RCPubWordViewController alloc]init];
+            RCNavigationController * rcNav =[[RCNavigationController alloc]initWithRootViewController:word];
+            UIViewController * root=(UIViewController*)[UIApplication sharedApplication].keyWindow.rootViewController;
+            [root presentViewController:rcNav animated:YES completion:nil];
+            
         }
     }];
 }

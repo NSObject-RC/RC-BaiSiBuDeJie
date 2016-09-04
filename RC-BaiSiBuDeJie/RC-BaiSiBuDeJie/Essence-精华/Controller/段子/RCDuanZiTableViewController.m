@@ -13,6 +13,7 @@
 #import "RCDuanziModel.h"
 #import "RCDuanZiCell.h"
 #import "RCCommentViewController.h"
+#import "RCNewViewController.h"
 @interface RCDuanZiTableViewController ()
 /** 帖子数据 */
 @property (nonatomic, strong) NSMutableArray *topics;
@@ -22,6 +23,9 @@
 @property (nonatomic, copy) NSString *maxtime;
 /** 上一次的请求参数 */
 @property (nonatomic, strong) NSDictionary *params;
+
+/** 上次选中的索引(或者控制器) */
+@property (nonatomic, assign) NSInteger lastSelectedIndex;
 @end
 
 @implementation RCDuanZiTableViewController
@@ -38,9 +42,19 @@
     [self setupTableView];
     // 添加刷新控件
     [self setRefresh];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(tabbarSelect) name:RCTabBarDidSelectNotification object:nil];
     
 }
 
+- (void)tabbarSelect{
+    if(self.lastSelectedIndex == self.tabBarController.selectedIndex && [self.view isShowingOnKeyWindow]){
+        [self.tableView.mj_header beginRefreshing];
+    }
+    self.lastSelectedIndex = self.tabBarController.selectedIndex;
+}
+- (void)dealloc{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
 static NSString * const  RCDuanZiCellId= @"DuanZi";
 - (void)setupTableView{
 
@@ -54,13 +68,18 @@ static NSString * const  RCDuanZiCellId= @"DuanZi";
     self.tableView.mj_header.automaticallyChangeAlpha=YES;
     [self.tableView .mj_header beginRefreshing];
 }
+
+#pragma mark - a参数
+- (NSString *)a{
+    return [self.parentViewController isKindOfClass:[ RCNewViewController class]] ? @"newlist" :@"list";
+}
 // 加载新数据
 - (void)loadNewDuanzi{
     // 结束上啦
     [self.tableView.mj_footer endRefreshing];
     // 参数
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
-    params[@"a"] = @"list";
+    params[@"a"] = self.a;
     params[@"c"] = @"data";
     params[@"type"] = @(self.type);;
     self.params = params;
@@ -93,7 +112,7 @@ static NSString * const  RCDuanZiCellId= @"DuanZi";
     [self.tableView.mj_header  endRefreshing];
     // 参数
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
-    params[@"a"] = @"list";
+    params[@"a"] = self.a;
     params[@"c"] = @"data";
     params[@"type"] = @(self.type);
     NSInteger page = self.page + 1;

@@ -9,5 +9,8 @@
 #import "RCCommentModel.h"
 
 @implementation RCCommentModel
-
++ (NSDictionary *)replacedKeyFromPropertyName
+{
+    return @{@"ID" : @"id"};
+}
 @end

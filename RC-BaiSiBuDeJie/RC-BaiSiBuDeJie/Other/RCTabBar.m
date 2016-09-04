@@ -36,8 +36,13 @@
 }
 - (void)layoutSubviews{
     [super layoutSubviews];
+   
+    // 标记按钮是否已经添加过监听器
+    static BOOL added = NO;
+    
     CGFloat width = self.width;
     CGFloat height = self.height;
+    
     
     // 设置发布按钮的frame
     self.publishButton.center = CGPointMake(width * 0.5, height * 0.5);
@@ -50,16 +55,22 @@
     
     NSInteger index=0;
     
-    for(UIView * btn in self.subviews){
+    for(UIControl * btn in self.subviews){
         if(![btn isKindOfClass:[UIControl class]] || btn==self.publishButton) continue;
         
         CGFloat btnX =btnW * ((index>1) ?(index+1):index);
         btn.frame=CGRectMake(btnX, btnY, btnW, btnH);
         index ++ ;
+        
+        if(added ==NO){
+        [btn addTarget:self action:@selector(tabbarSelect) forControlEvents:(UIControlEventTouchUpInside)];
+        }
     }
-    
+    added = YES;
 }
-
+- (void)tabbarSelect{
+    [[NSNotificationCenter defaultCenter] postNotificationName:RCTabBarDidSelectNotification object:nil];
+}
 
 /*
 // Only override drawRect: if you perform custom drawing.

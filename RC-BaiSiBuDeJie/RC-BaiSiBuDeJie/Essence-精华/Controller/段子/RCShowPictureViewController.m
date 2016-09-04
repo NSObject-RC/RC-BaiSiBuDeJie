@@ -20,6 +20,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+   
     UIImageView * img=[[UIImageView alloc]init];
     img.userInteractionEnabled=YES;
     

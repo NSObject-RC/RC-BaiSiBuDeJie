@@ -8,7 +8,8 @@
 
 #import "AppDelegate.h"
 #import "RCTabBarController.h"
-@interface AppDelegate ()
+#import "RCTopWindow.h"
+@interface AppDelegate ()//<UITabBarControllerDelegate>
 
 @end
 
@@ -19,10 +20,22 @@
     self.window=[[UIWindow alloc]init];
     self.window.frame=[UIScreen  mainScreen].bounds;
     self.window.backgroundColor=[UIColor whiteColor];
-    self.window.rootViewController=[[RCTabBarController alloc]init];
+    
+    RCTabBarController * rctabbarVC=[[RCTabBarController alloc]init];
+//    rctabbarVC.delegate=self;
+//    
+    
+    self.window.rootViewController=rctabbarVC;
+   
+    // application.statusBarStyle = UIStatusBarStyleLightContent;
+   
     [self.window makeKeyAndVisible];
     return YES;
 }
+//- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
+//    // 发出一个通知
+//    [[NSNotificationCenter defaultCenter] postNotificationName:RCTabBarDidSelectNotification object:nil];
+//}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -40,6 +53,8 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    
+    //[RCTopWindow show];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {

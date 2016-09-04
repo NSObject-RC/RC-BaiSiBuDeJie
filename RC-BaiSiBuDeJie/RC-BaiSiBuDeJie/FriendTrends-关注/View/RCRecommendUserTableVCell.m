@@ -22,15 +22,13 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    self.header.layer.masksToBounds=YES;
-    self.header.layer.cornerRadius=25;
+    
 }
 - (void)setModel:(RCRecommendUserModel *)model{
     _model=model;
     self.screen_name.text=model.screen_name;
     self.fans_count.text=[NSString stringWithFormat:@"%zd人关注",model.fans_count];
-    [self.header sd_setImageWithURL:[NSURL URLWithString:model.header] placeholderImage:[UIImage imageNamed:@"defaultUserIcon"] ];
-    
+    [self.header setHeadImage:model.header];
 }
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];

@@ -19,11 +19,29 @@
 
 + (void)initialize{
     
-    // 当导航栏用在XMGNavigationController中, appearance设置才会生效
+    // 当导航栏用在RCNavigationController中, appearance设置才会生效
     //    UINavigationBar *bar = [UINavigationBar appearanceWhenContainedIn:[self class], nil];
     // 给导航栏添加背景颜色
     UINavigationBar *bar = [UINavigationBar appearance];
     [bar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
+    [bar setTitleTextAttributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:20]}];
+    
+    // 设置 item
+    UIBarButtonItem * item =[UIBarButtonItem appearance];
+   
+    //正常的Normal状态
+    NSMutableDictionary *itemAttrs = [NSMutableDictionary dictionary];
+    itemAttrs[NSForegroundColorAttributeName] = [UIColor blackColor];
+    itemAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:17];
+    [item setTitleTextAttributes:itemAttrs forState:UIControlStateNormal];
+    
+    //不可点击的Disabled状态
+    NSMutableDictionary *itemDisabledAttrs = [NSMutableDictionary dictionary];
+    itemDisabledAttrs[NSForegroundColorAttributeName] = [UIColor lightGrayColor];
+    [item setTitleTextAttributes:itemDisabledAttrs forState:UIControlStateDisabled];
+    
+    //appearance在设置两种不同的状态的时候，因渲染需要时间会失效。可在ViewWill中设置不可点击状态。但效果不好（先看到黑色，再出现灰色）。需要将导航条强制刷新[bar layoutIfNeeded];
+    
 }
 - (void)viewDidLoad {
     [super viewDidLoad];

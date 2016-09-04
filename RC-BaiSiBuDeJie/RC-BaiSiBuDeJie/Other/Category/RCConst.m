@@ -18,4 +18,7 @@ CGFloat const RCPictureMaxH = 1000;
 
 /**RCUserModel中性别属性值*/
 NSString * const RCUserModelSexMale = @"m";
- NSString * const RCUserModelSexFemale = @"f";
+NSString * const RCUserModelSexFemale = @"f";
+
+/**tabBar被选中的通知名字*/
+NSString * const RCTabBarDidSelectNotification = @"RCTabBarDidSelectNotification";
